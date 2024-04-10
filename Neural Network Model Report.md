@@ -43,5 +43,14 @@ Comprising three layers, the training model encapsulated a sum of 477 parameters
 ![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/a2c1b9ae-b0ee-4449-9cde-7a77bcfcb0cf)
 
 
+![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/46676fd6-67b2-412d-aa05-b487101a7304)
+
+## Summary:
+The advantage of employing multiple layers in deep learning models lies in their ability to efficiently filter inputs. These layers facilitate the computer in learning to predict and classify information effectively. 
+The initial training model, with three layers and 477 parameters, reached about 72% accuracy, just below the 75% target. However, reintroducing 'NAME' in the second iteration significantly improved performance, achieving 79% accuracy, exceeding the target by 4%.
+Utilizing a model with a stronger link between input and output is likely to yield improved prediction accuracy. Achieving this may involve upfront data refinement and employing a model with varied activation functions, followed by iterative adjustments until higher accuracy levels are achieved.
+
+
+
 
 
