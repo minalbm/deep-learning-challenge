@@ -9,5 +9,35 @@ Alphabet Soup, a philanthropic institution renowned for its backing of more than
   For every model, a Neural Network was utilized, consisting of three layers in total, each with multiple layers. The number of hidden nodes in each layer was determined based on the features present in the dataset.
 
   ```python
+# Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
+number_input_features = len( X_train_scaled[0])
+hidden_nodes_layer1=7
+hidden_nodes_layer2=14
+hidden_nodes_layer3=21
+
+nn = tf.keras.models.Sequential()
+
+# First hidden layer
+nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer1, input_dim=number_input_features, activation='relu'))
+
+# Second hidden layer
+nn.add(tf.keras.layers.Dense(units=hidden_nodes_layer2, activation='relu'))
+
+# Output layer
+nn.add(tf.keras.layers.Dense(units=1, activation='sigmoid'))
+
+# Check the structure of the model
+nn.summary()
+```
+
+Comprising three layers, the training model encapsulated a sum of 477 parameters. During the initial trial, it attained a performance level of around 72%, narrowly missing the aimed threshold of 75%.
+
+  ```python
 
 ```
+
+
+
+
+
+
