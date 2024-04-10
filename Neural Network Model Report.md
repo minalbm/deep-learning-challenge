@@ -8,7 +8,7 @@ Alphabet Soup, a philanthropic institution renowned for its backing of more than
 - Compiling, Training, and Evaluation the Model:
   For every model, a Neural Network was utilized, consisting of three layers in total, each with multiple layers. The number of hidden nodes in each layer was determined based on the features present in the dataset.
 
-  ```python
+```python
 # Define the model - deep neural net, i.e., the number of input features and hidden nodes for each layer.
 number_input_features = len( X_train_scaled[0])
 hidden_nodes_layer1=7
@@ -32,7 +32,7 @@ nn.summary()
 
 Comprising three layers, the training model encapsulated a sum of 477 parameters. During the initial trial, it attained a performance level of around 72%, narrowly missing the aimed threshold of 75%.
 
-  ```python
+```python
 
 ```
 
