@@ -34,6 +34,7 @@ Comprising three layers, the training model encapsulated a sum of 477 parameters
 
 ![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/614da9fb-8971-433d-afa6-7fe8406c9700)
 
+--------------------
 
 ![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/93ac988b-6c55-4927-9bc2-9eeca5415cb5)
 
@@ -42,6 +43,7 @@ Comprising three layers, the training model encapsulated a sum of 477 parameters
 
 ![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/a2c1b9ae-b0ee-4449-9cde-7a77bcfcb0cf)
 
+---------------------
 
 ![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/46676fd6-67b2-412d-aa05-b487101a7304)
 
