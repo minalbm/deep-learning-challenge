@@ -32,6 +32,9 @@ nn.summary()
 
 Comprising three layers, the training model encapsulated a sum of 477 parameters. During the initial trial, it attained a performance level of around 72%, narrowly missing the aimed threshold of 75%.
 
+![image](https://github.com/minalbm/deep-learning-challenge/assets/143767061/614da9fb-8971-433d-afa6-7fe8406c9700)
+
+
 ```python
 
 ```
